@@ -1,0 +1,36 @@
+{
+  "name": "landing",
+  "version": "0.0.1",
+  "description": "Landingsite and simple blog",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frode.bjerke@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.7.10",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-buffer": "0.0.2",
+    "gulp-if": "^1.2.5",
+    "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "lodash": "^3.9.3",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "react-style": "^0.5.5",
+    "reactify": "^1.1.1",
+    "remarkable": "^1.6.0",
+    "stringify": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2",
+    "yargs": "^3.10.0"
+  }
+}

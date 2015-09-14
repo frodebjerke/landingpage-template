@@ -1,0 +1,42 @@
+.md-blog {
+    .md();
+
+    background-color: @white;
+}
+
+.md-blog--content {
+    max-width: @md--gutted;
+    margin: 0 auto;
+
+    h1, h2, h3, h4 {
+        .serif();
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        .serif();
+        margin-bottom: 1rem;
+        line-height: 1.6rem;
+    }
+
+    a {
+        .serif();
+        color: @green--darkest;
+        text-decoration: none;
+        letter-spacing: 0.075rem;
+    }
+}
